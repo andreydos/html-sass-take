@@ -1,0 +1,137 @@
+.shop {
+	display: flex;
+	background: #f6f7fa;	
+}
+
+.shop__item--solo,
+.shop__item--team {
+	margin: 10px;
+	padding: 10px;
+}
+
+.shop__item--team {
+	background: white;
+}
+
+.shop__item--solo-status,
+.shop__item--team-status {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #e1e1e1;
+	color: white;
+	font-size: .6875em;
+	font-weight: 900;
+	border-radius: 5px;
+}
+
+.shop__item--solo-status {
+	padding: 5px 20px;
+}
+
+.shop__item--team-status {
+	background: #bd8cbf;
+	font-weight: bold;
+}
+
+.shop__item--solo-title,
+.shop__item--team-title {
+	margin-top: 0;
+	font-size: 1.875em;
+	font-weight: 300;
+	color: #2e3b4e;
+}
+
+.shop__item--solo-content,
+.shop__item--team-content {
+	font-size: .875em;
+	color: #8297a7;
+}
+
+.button{	
+	position: relative;
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.button-link {	
+	width: 150px;
+	height: 45px;  //todo
+	font-size: .8125em;
+	font-weight: bold;
+	vertical-align: center;
+  line-height: 3.5em;  //todo
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	background: #82ca9c;	
+	border-radius: 5px;
+}
+
+.apple-os-button {
+	position: absolute;
+	top: 65px;
+  left: 0px;  
+  font-size: 1.7em;
+	color: #c5c5c5;
+
+	&:hover {
+		opacity: .5;
+	}
+}
+
+.windows-os-button {
+	position: absolute;
+  top: 65px;
+  left: 40px; 
+  font-size: 1.7em;
+  color: #c5c5c5;
+
+  &:hover {
+		opacity: .5;
+	}
+}
+
+@media only screen and (min-width : 768px) {
+	.shop {
+		padding-top: 110px;
+	}	
+
+	.shop__item--solo,
+	.shop__item--team {
+		margin: 0;
+		margin-bottom: 140px;
+		padding: 45px 70px 40px 55px;
+	}
+
+	.shop__item--solo-status,
+	.shop__item--team-status {
+		margin-left: .5%;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+
+	.shop__item--solo {
+		height: 380px;
+		width: 48%;
+		margin-left:1.7%; 
+	}
+
+	.shop__item--team {
+		height: 380px;
+		width: 47.5%;
+		margin-left:1.5%; 
+		box-shadow: 0 0 31px 31px rgba(0,0,0,.05);
+	}
+
+	.shop__item--solo-title,
+	.shop__item--team-title {
+		margin-bottom: 13px;		
+	}
+
+	.shop__item--solo-content,
+	.shop__item--team-content {
+		margin-bottom: 25px;	
+		line-height: 1.75em;
+	}
+}

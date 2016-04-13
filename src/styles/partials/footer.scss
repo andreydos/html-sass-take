@@ -1,0 +1,143 @@
+.footer {
+	padding-top: 20px;
+	background: #192431;
+	color: white;
+}
+
+.footer__header,
+.footer__subscribe--header {
+	font-size: .8125em;
+	font-weight: 500;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.footer__content {
+	margin-bottom: 15px;
+	font-size: .8125em;
+}
+
+.footer__subscribe--form {
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+
+	input[type="email"],
+	input[type="submit"] {
+		display: inline-block;
+		width: 85%;
+		height: 57px;
+		vertical-align: top;
+		padding: 5px;
+		border: none;
+		color: black;
+	}
+	input[type="submit"] {
+		width: 15%;	
+		background-color: #82ca9c;
+		background-image: url('../img/check-mark.svg');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		color: rgba(0,0,0,0); //todo
+	}
+}
+
+.footer__subscribe--hint {
+	font-size: .75em;
+	color: #57697f;
+	text-align: center;
+}
+
+.footer__subscribe {
+	margin-bottom: 40px;
+}
+
+.footer__menu {
+	padding: 0;
+	text-align: center;
+}
+
+.footer__menu--link {
+	color: white;
+}
+
+.footer__menu--link:hover {
+	text-decoration: underline;
+}
+
+.footer__menu--item {	
+	list-style: none;
+}
+
+.footer__social {
+	float: right;
+	padding: 20px;
+	text-align: center;
+}
+
+.footer__header--social {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.footer__social--link {
+	margin-right: 15px;
+	color: white;
+
+	&:hover {
+		opacity: .5;
+	}
+}
+
+
+@media only screen and (min-width : 768px) {
+
+	.footer {
+		padding-top: 115px;
+		padding-bottom: 150px;
+	}
+
+	.footer__header {
+		margin-bottom: 20px;
+		text-align: left;
+	}
+
+	.footer__content {
+		margin-bottom: 70px;
+		line-height: 1.8em;
+	}
+
+	div.footer__header {
+		margin-bottom: 15px;
+		text-align: left;
+	}
+
+	.footer__menu {
+		font-size: 0.8125em;
+		line-height: 1.85em;
+		text-align: left;
+	}
+
+	.footer__subscribe--header {
+		margin-left: 18%;		
+		margin-bottom: 25px;
+		text-align: left;
+	}
+
+	.footer__subscribe--form {
+		width: 83%;
+	}
+
+	.footer__subscribe--hint {
+		margin-top: 15px;
+		margin-left: 18%;
+		padding-right: 20%;
+		text-align: left;
+	}
+
+	.footer__subscribe {
+		margin-bottom: 0px;
+	}
+
+}
+

@@ -1,0 +1,194 @@
+.promo {
+	background: #f5f5f5;
+}
+
+.promo__title,
+.promo__heading {
+	font-weight: 300;
+	font-size: 2.1875em;
+	text-align: center;
+}
+
+.promo__paragraph {	
+	font-size: .875em;
+	color: #959595;
+}
+
+.promo__blocks--paragraph {
+	font-size: .875em;
+}
+
+.promo__blocks,
+.promo__blocks--link {
+	color: white;
+}
+
+.promo__heading {
+	font-size: 1.875em;
+}
+
+.promo__blocks--link {
+	font-size: .875em;
+	font-weight: bold;
+}
+
+.promo__blocks--design-quality {
+	padding: 5%;
+	background-color: #f5989d;
+}
+
+.promo__blocks--built-last {
+	padding: 5%;
+	background-color: #615f7d;
+}
+
+.promo__blocks--our-clients {
+	padding: 5%;
+	background: url('../img/promo-clients.png') no-repeat;
+	background-size: cover;
+}
+
+.promo__blocks--sign-up {
+	padding: 5%;
+	background: url('../img/promo-sign-up.png') no-repeat;
+	background-size: cover;
+}
+
+.promo__blocks--perfect-pictures {
+	padding: 5%;
+	background-color: #82ca9c;
+}
+
+.fa-heart-button {
+	color: white;
+}
+
+.fa-heart-button:before {
+  content: "\f08a";
+}
+
+.fa-heart-button:hover:before{
+  content: "\f004";
+}
+
+.promo__blocks--like {
+	float: right;
+}
+
+
+.promo__details {
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.promo__details--header {
+	font-size: .8125em;
+	font-weight: 600;
+	color: #67676d;
+}
+
+.promo__details--paragraph {
+	font-size: .875em;
+	color: #959595;
+}
+
+@media only screen and (min-width : 768px) {
+	.promo__blocks {
+		display:flex;
+		width: 100%;	
+		height: 325px;
+		margin-top: 0px;
+		margin-left: 15px;		
+	}
+}
+
+
+@media only screen and (min-width : 968px) {
+	.promo {
+		padding-top: 75px;
+	}
+
+	.promo__title,
+	.promo__heading {
+		text-align: left;
+	}
+
+	.promo__title {
+		margin-bottom: 10px;
+	}
+
+	.promo__paragraph {
+		margin-bottom: 27px;
+		line-height: 1.7em;
+	}
+
+	.promo__right-column {
+		margin-top: 100px;
+	}
+
+	.promo__blocks {
+		display:flex;
+		width: 100%;	
+		height: 279px;
+		margin-top: 55px;
+		margin-left: 15px;		
+	}
+
+	.promo__block {
+		width: 33.333%;
+	}
+
+	.promo__blocks--sign-up {
+		width: 66.666%;
+	}
+
+	.promo__blocks--perfect-pictures {
+		width: 33.333%;
+	}
+
+	.promo__blocks--second-block {
+		margin-top: 0;
+	}
+
+	.promo__blocks--design-quality,
+	.promo__blocks--built-last,
+	.promo__blocks--our-clients,
+	.promo__blocks--sign-up, 
+	.promo__blocks--perfect-pictures {
+		padding-top: 1%;
+		padding-left: 3.5%;
+		padding-right: 4%;
+		padding-bottom: 0;
+	}
+
+	.promo__heading {
+		margin-bottom: 20px;
+	}
+	
+	.promo__blocks--paragraph {
+		margin-bottom: 30px;
+		line-height: 1.7em;
+	}
+
+	.promo__blocks--sign-up {
+		.promo__blocks--paragraph {
+			padding-right: 30%;
+			margin-bottom: 55px;
+		}
+	}
+
+	.promo__title--details {
+		margin-top: 85px;
+		margin-bottom: 40px;
+	}
+
+	.promo__details {
+	padding-bottom: 140px;
+	text-align: left;
+	}
+
+	.promo__details--paragraph {
+		margin-top: 20px;		
+		line-height: 1.75em;
+	}
+}

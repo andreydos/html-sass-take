@@ -1,0 +1,42 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+i.fa {
+	margin-left: 10px;
+}
+
+	.container1200 {
+		width: 98%;
+		margin: auto;
+	}
+
+@media only screen and (min-width : 768px) {
+	.container1200 {
+		width: 90%;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width : 1224px) {
+	.container1200 {
+		width: 63%;
+		margin: auto;
+	}
+}
+
+
+
+@import "partials/fluid-grid-12.scss";
+@import "partials/header.scss";
+@import "partials/promo.scss";
+@import "partials/slide.scss";
+@import "partials/reasons.scss";
+@import "partials/shop.scss";
+@import "partials/footer.scss";
+

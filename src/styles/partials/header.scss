@@ -1,0 +1,92 @@
+.header {
+	position: relative;
+	height: 500px;
+	background: url('../img/header-bg.png') no-repeat;
+	background-size: contain; 
+}
+
+.header__image {
+	display: block;
+  position: absolute;
+  top: 5px;
+  left: 45.55%;
+}
+
+.header__image-img {
+	width:100%;
+}
+
+.header__logo-link {
+	display: block;
+	margin-top: 55px;
+}
+
+.header__logo--img {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.header__logo--text {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 1.25em;
+	color: white;	
+}
+
+.header__title,
+.header__subtitle {
+	color: black;
+}
+
+.header__title {	
+	margin-top: 170px;
+	margin-bottom: 0px;
+	font-size: 2.75em;
+	font-weight: 300;
+}
+
+.header__subtitle {
+	padding-right: 20%;
+	font-size: .8125em;
+	line-height: 1.7em;
+}
+
+@media only screen and (min-width : 550px) {
+.header__title {	
+		margin-top: 280px;	
+	}
+
+	.header__subtitle {
+		font-size: .8125em;
+	}
+}
+
+@media only screen and (min-width : 768px) {
+	.header {
+		height: 950px;
+		background-size: cover; 
+	}
+
+	.header__image {
+	  top: 260px;  
+	}
+
+	.header__title,
+	.header__subtitle {
+		color: white;
+	}
+
+	.header__title {	
+		margin-top: 335px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		font-size: 3.75em;
+	}
+
+	.header__subtitle {
+		margin-left: 0px;
+		padding-right: 60%;
+	}
+}
+
